@@ -18,7 +18,7 @@ bool Chop::getChop()
 void Chop::putChop()
 {
 	c_lock.unlock();
-	cout<<" I'm done, you can have the chopstics"<<endl;
+	//cout<<" I'm done, you can have the chopstics"<<endl;
 }
 
 Chop::~Chop()

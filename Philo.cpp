@@ -36,7 +36,7 @@ bool Philo::getChop()
 	if(!right.getChop())
 	{
 		left.putChop();
-		return false;
+		return true;
 	}
 	return true;
 }
